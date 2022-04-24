@@ -1,0 +1,416 @@
+.button-6 {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  left: 20px;
+  top: 10px;
+  text-decoration: none;
+  transition: all 250ms;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.button-18 {
+  align-items: center;
+  background-color: #0a66c2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+  background-color: #16437e;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.button-18:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.button-2 {
+  align-items: center;
+  background-color: #25D366;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-2:hover,
+.button-2:focus {
+  background-color: #1c994a;
+  color: #ffffff;
+}
+
+.button-2:active {
+  background: #0f572a;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.button-2:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: red;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("/images/background1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-style: Devanagari;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  grid-template-columns: auto auto auto;
+  position: relative;
+}
+
+header img {
+  border-style: solid;
+  border-color: transparent;
+  width: auto;
+  height: 110px;
+  margin-left: 15px;
+}
+
+.tab {
+  margin-left: 2.5em;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: large;
+}
+
+nav {
+  position: absolute;
+  border-style: solid;
+  border-color: transparent;
+  top: 20px;
+  left: 200px;
+}
+
+socials {
+  position: absolute;
+  float: right;
+  top: 10px;
+  right: 0;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 550px auto;
+  padding-top: 50px;
+}
+
+.word-art {
+  font-size: xx-large;
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+.tagline {
+  color: lightgreen;
+  font-size: medium;
+  margin-left: 33px;
+  margin-top: -45px;
+  height: 200px;
+}
+
+.img1 {
+  max-width: 50%;
+  height: 70px;
+  left: 42%;
+  top: 180px;
+}
+
+.border1 {
+  max-width: 100%;
+  height: 100%;
+}
+
+.main1 {
+  position: relative;
+  display: grid;
+  grid-area: 0/0;
+  margin-right: 10px;
+}
+
+.info1 {
+  position: relative;
+  display: flex;
+}
+
+.info1 img {
+  padding-right: 30px;
+}
+
+.info1 .text {
+  background-color: rgba(74, 138, 90, 0.76);
+  color: white;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+.info1a {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+  color: white;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+.info1a img {
+  width: 600px;
+  height: auto;
+  margin-right: -30px;
+}
+
+.main2 {
+  position: relative;
+  display: grid;
+  color: #000000;
+  padding-top: 50px;
+  margin-bottom: 30px;
+  border: #ffffff solid;
+}
+
+.main2 > h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.main2 > .info1b {
+  display: grid;
+  grid-template-columns: 600px auto;
+}
+
+.main2 > .info1b > .contact {
+  border: #ffffff solid;
+  position: relative;
+  background-image: url("/images/contact-bg.jpg");
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 160, 160, 0.753);
+  border-radius: 25px;
+  width: 500px;
+  height: 230px;
+  margin-left: 50px;
+}
+
+.main2 > .info1b > .experience {
+  border: #ffffff solid;
+  border-radius: 25px;
+  background-color: rgba(41, 179, 126, 0.753);
+}
+
+.main2 > .info1b > .experience > h1 {
+  text-align: center;
+}
+
+.main2 > .info1b > .experience > p {
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+.main2 .info1 h1 {
+  padding-left: 33%;
+}
+
+.main2 .gallery {
+  margin-left: 30px;
+}
+
+.main3 .text {
+  text-align: center;
+  background-color: rgba(74, 138, 90, 0.76);
+  color: white;
+  margin-left: 31.5%;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  width: 500px;
+}
+
+.main3 .gallery img {
+  display: inline;
+  grid-template-columns: auto auto auto;
+  background-color: #c2b0a9;
+  padding: 10px;
+  width: 400px;
+  height: 250px;
+}
+
+.main3 .gallery {
+  margin-left: 5%;
+}/*# sourceMappingURL=style.css.map */
